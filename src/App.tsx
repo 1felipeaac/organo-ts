@@ -52,7 +52,7 @@ function App() {
 
   return (
     <div className="App">
-      <Banner enderecoImagem='/imagens/banner.png'/>
+      <Banner enderecoImagem='https://raw.githubusercontent.com/1felipeaac/organo-ts/gh-pages/imagens/banner.png'/>
       <Formulario times={times.map(time => time.nome)} aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdicionado(colaborador)}/>
 
       {times.map(time => <Time 
